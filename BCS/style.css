@@ -1,0 +1,2745 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    width: 100%;
+}
+body{
+    background-color: #1C171A;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.common_container{
+    margin: 0 auto;
+    max-width:1519px;
+    width: 100%;
+
+}
+.active_nav {
+    background: #1C171A;
+
+}
+
+
+.popup{
+        width: 100vh;
+
+
+
+}
+header{
+    z-index: 100;
+
+    position: fixed;
+
+    width: 100%;
+}
+.Onavbar{
+    display: flex;
+    height: 105px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+}
+.Onav-branding{
+    padding-left: 50px;
+}
+.nav_logo{
+    width: 72px;
+    height: 94px;
+}
+.Onav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:40px;
+    padding-right: 1000px;
+    padding-top: 20px;
+    white-space: nowrap;
+   
+
+
+}
+.Onav-link{
+    font-family: sans-serif;
+    padding-top: 10px;
+    color:white;
+    padding: 5px 5px;
+    text-decoration: none;
+    transition: .7s ease;
+    font-family: Chivo;
+    text-transform: uppercase;
+}
+
+.contact_btn{
+    
+    color: #EE2D2D;
+}
+.home{
+    color:#EE2D2D;
+}
+.Onav-link:hover{
+    color: #EE2D2D;
+    border-bottom: 4px dotted #EE2D2D;
+}
+.Booking_btn{
+    background: #EE2D2D;
+    margin-left: 250px;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+ 
+
+}
+.Booking_btn:hover{
+    color: white;
+
+}
+.Ohamburger{
+    display: none;
+    cursor: pointer;
+}
+.Obar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #EE2D2D;
+
+
+}
+
+/*/////////////////////Banner///////////////////////*/
+.banner{
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.bannerContent{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 100%;
+
+}
+.banner_left{
+    background: url(images/car_back.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: left -100px bottom -60px;
+}
+.banner_left_content{
+    padding-left: 12%;
+}
+.banner h2{
+
+    color: white;
+    font-weight: bold;
+    font-size:55px ;
+    font-style: italic;
+    margin-left: 5%;
+}
+.banner h2 span{
+    color:#EE2D2D;
+    font-size:55px ;
+
+}
+.banner h3{
+    color: white;
+    font-size:34px;
+    font-weight: normal;
+    margin-left: 5%;
+}
+.banner_left_content p{
+    margin-top: 20px;
+    width: 80%;
+    text-align: start;
+    color: white;
+    font-size: 16px;
+
+}
+.book_now{
+    width: 150px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+.banner{
+    background: url(images/car_back.png);
+    background-size: 800px 800px;
+   background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.banner_car{
+    width: 90%;
+    margin-top: -50px;
+
+}
+.Social_icon_container{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.Social_icon_container a{
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.Social_icon{
+    color: white;
+
+}
+
+
+
+/*//////////////////////Work////////////////////*/
+.work{
+    height: auto;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-top: 40px;
+    margin-bottom: 130px;
+
+    background: url(images/Ellipse80@2x.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: left -150px bottom -70px;
+}
+
+.work-left{
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    background: url(images/Group624.png);
+    background-size: 700px 300px;
+    background-repeat: no-repeat;
+    background-position:left -350px top -50px;
+
+
+}
+.work-left h2{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 55px;
+
+}
+.work-left h2 span{
+    color: #EE2D2D;
+}
+.work-left p{
+    width: 62%;
+    color: white;
+}
+.explore_now{
+
+    width: 150px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+.work-right-start{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column;
+}
+.work-right-end{
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+}
+.work_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 280px;
+    height: 280px;
+    background: url(images/rec.png);
+    background-size: 280px 280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.work_card:hover{
+
+    background: #EE2D2D;
+    border-radius: 5px;
+
+}
+
+
+
+
+.work_card h4{
+    margin-top:15px;
+    color: white;
+    font-size: 20px;
+
+}
+.work_card p{
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    
+
+}
+.biman{
+
+    width: 100px;
+}
+.discount{
+   width: 80px;
+}
+.ramadan{
+    width: 70px;
+}
+.time{
+    width: 100px;
+}
+
+.world_class{
+    width: 100%;
+    height: 500px;
+    background: url(images/Abstract_background.png);
+}
+.world_class_content{
+    width: 90%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    margin-left: 10%;
+    background: url(images/world_class.png);
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.new_world_class{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+
+    background: url(images/new_world.png);
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.new_world_class h3{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    width: 50%;
+
+}
+.new_world_class h3 span{
+  color: #EE2D2D;
+    font-size: 42px;
+    font-weight: normal;
+}
+.new_world_class p{
+    font-size: 14px;
+    text-align: justify;
+    color: white;
+   width: 50%;
+}
+
+
+.bootstrap_card_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.car_card{
+    width: 300px;
+    height: 350px;
+    max-width: 300px;
+    margin: 20px 0;
+    color: white;
+    background:#191417;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    cursor: pointer;
+}
+.car_card:hover{
+    background: #EE2D2D;
+}
+.car_card:hover .book_white_btn img{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.car_card img{
+
+    width: 200px;
+}
+.car_card h3{
+    margin-top: -5px;
+    font-size: 20px;
+}
+.capacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capacity p{
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+.capacity img{
+    width: 10px;
+    height: 10px;
+}
+.book_white_btn{
+    cursor: pointer;
+}
+.book_white_btn img{
+    width: 150px;
+}
+
+
+/*=========================slider=====================*/
+
+.slider_content{
+    width: 80%;
+    margin-left: 10%;
+}
+.slide_bar{
+    padding-top: 100px;
+}
+.slider{
+    background:url(images/car_back.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: left -200px top 10px;
+
+}
+.slider_title_container{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background:url(images/sliderback.png);
+    background-size: 1000px 450px;
+    background-repeat: no-repeat;
+    background-position: right -700px top -250px;
+
+}
+.slider_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 400px;
+    height: 250px;
+    background: url(images/28532.png);
+    background-position: center;
+    background-size: 350px 220px;
+    background-repeat: no-repeat;
+
+
+}
+.slider_title h2{
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+}
+.slider_title h2 span{
+    font-weight: bold;
+    font-size: 38px;
+    color: #EE2D2D;
+}
+.slider_title  p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+}
+
+
+/*=================Chauffeur========================*/
+
+.Chauffeur{
+    margin-top: 50px;
+    background: rgba(47, 47, 47,.1);
+    border-radius: 15px;
+
+
+
+
+}
+
+.smile_busness{
+    width:  450px;
+}
+.Chauffeur_left{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    padding-left: 25px;
+    background:url(images/chur_back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.Chauffeur_left h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.Chauffeur_left h2 span{
+    font-size: 38px;
+    padding-top: 5px;
+    font-weight: normal;
+    color: #EE2D2D;
+
+}
+.Chauffeur_left p{
+    color: white;
+    font-size: 14px;
+    width: 80%;
+
+}
+
+.chauffur_book_btn{
+    width: 120px;
+}
+.Chauffeur_right{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*==================Travel===========================*/
+.travel{
+    background: url(images/Group624.png);
+
+    background-size: 800px 400px;
+    background-position: top -20px left -520px;
+    background-repeat: no-repeat;
+}
+.travel_left{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.travel_img{
+    width: 450px;
+}
+.travel_right{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+
+}
+.travel_right h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.travel_right h2 span{
+    font-size: 38px;
+    padding-top: 5px;
+    font-weight: normal;
+    color: #EE2D2D;
+
+}
+.travel_right p{
+    color: white;
+    font-size: 14px;
+    width: 60%;
+
+}
+
+/*===================save====================*/
+
+.save{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/banner_car.png);
+
+    background-size:70% 150%;
+    background-repeat: no-repeat;
+    background-position: top -180px center;
+}
+
+.save_content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/modern_back.png);
+
+}
+.save_content h2{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.save_content h2{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+
+}
+.save_content p{
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.book_ride{
+    width: 150px;
+    padding: 10px 20px;
+    background:#EE2D2D;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+
+
+}
+.book_ride:hover{
+    width: 150px;
+    padding: 10px 20px;
+    background: white;
+    color: #EE2D2D;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+/*======================testmonial==============================*/
+
+.test_left{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    color: white;
+    padding-left: 50px;
+}
+
+.test_left_container {
+    display: flex;
+
+}
+.test_left h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.test_left h2 span{
+    font-size: 42px;
+    font-weight: normal;
+    color: #EE2D2D;
+}
+.test_left_container img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.test_left_container p{
+    font-size:14px ;
+    opacity: .5;
+    width: 70%;
+}
+.test_left_container h4{
+    font-size:16px ;
+
+    width: 70%;
+}
+
+.test_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.test_right img{
+    width: 400px;
+
+}
+.test_left_complement p{
+    width: 80%;
+    text-align: justify;
+}
+.service_container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.service{
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    background-color: #17131596;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    background-position: right ;
+    border-radius: 15px;
+}
+.service_shadow{
+
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+
+    background: url(images/back_light.png);
+    background-size: 100% 150%;
+
+    background-repeat: no-repeat;
+    background-position: right ;
+    border-radius: 15px;
+}
+.service h2{
+    margin-top: 30px;
+    font-size: 38px;
+    color: white;
+    font-weight: normal;
+}
+.service h2 span{
+    font-size: 38px;
+    color: #EE2D2D;
+
+}
+
+.service h3{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.service h3 span{
+    font-size: 38px;
+    color: #EE2D2D;
+
+}
+.service p{
+    margin-top: 20px;
+    width: 60%;
+    color: white;
+    font-size: 14px;
+    margin-left: 3px;
+}
+.service a{
+   background: #EE2D2D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-top: 20px;
+
+}
+
+.service a:hover{
+    background: white;
+    color: #EE2D2D;
+   border:2px solid #EE2D2D;
+    border-radius: 10px;
+
+}
+
+.Main_footer_content{
+    width: 100%;
+    padding-top: 90px;
+    height: auto;
+    background: url(images/footrback.png);
+    background-position: right -50px  top -100px;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+
+}
+.footer_content{
+
+    width: 90%;
+    margin-left: 5%;
+
+}
+.footer_left{
+    margin-top: -50px;
+    margin-bottom: 30px;
+
+}
+.footer_left p{
+    color: white;
+    font-size: 12px;
+    width: 70%;
+}
+.footer{
+    color: white;
+    margin-bottom: 40px;
+}
+.footer_social_container{
+    color: white;
+    margin-bottom: 40px;
+
+}
+.footer h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer_social_container h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer ul{
+    margin-left: -30px;
+}
+
+
+.footer li {
+  list-style: none;
+    margin-top: 10px;
+}
+.footer li a{
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+
+
+}
+
+.footer ul li a:hover{
+    color: #EE2D2D;
+    background: white;
+    border: 2px solid #EE2D2D;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.footer_social{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+.footer_social {
+
+    margin-left: -30px;
+}
+.footer_social li a{
+    margin-right: 30px ;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+.footer_social li a:hover{
+    color: #EE2D2D;
+
+}
+.copyright{
+    background: rgba(121, 121, 121, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.copyright p{
+    color: white;
+    margin: 10px;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+/*======================About page = ==============================*/
+.about_menu{
+    color: #EE2D2D;
+
+}
+.about_top{
+    background: url(images/about_back.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about_top_conainer {
+    background: url(images/about_banner_black.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about_banner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 10%;
+    padding-top: 110px;
+}
+.about_banner_left{
+    margin-top: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    background: url(images/B.png);
+    background-size: 40% 100%;
+    background-position: right 250px top 10px;
+    background-repeat: no-repeat;
+}
+.about_banner_left p{
+    font-size: 14px;
+    color: #EE2D2D;
+    width: 70%;
+    margin-left: 4px;
+
+}
+.about_banner_left h2{
+    margin-top: -20px;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+}
+.about_banner_left h3{
+    color: #EE2D2D;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: -15px;
+}
+.about_banner_left h6{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    width: 70%;
+
+}
+.about_banner_left h2 span{
+   background: url(images/Path6760.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-style: italic;
+
+
+}
+
+.about_banner_left a{
+    background: #EE2D2D;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.about_banner_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_banner_right img{
+   width: 100%;
+
+
+}
+.about_banner_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+
+
+}
+.banner-footer_content{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: white;
+    height: 40px;
+    padding-right: 40px;
+    border-right: 1px solid gray;
+    padding-left: 20px;
+
+}
+.banner-footer_content:last-child {
+    border-right: none; !important;
+}
+
+.banner-footer_content h4{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+
+
+}
+
+.banner-footer_content p{
+    font-size: 14px;
+    margin-top: -5px;
+
+}
+
+.Favorite_Car{
+    margin-top: 100px;
+    background: url(images/favorite_back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.Favorite_Car_left {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   flex-flow: column;
+
+
+}
+
+.Favorite_Car_left h4 {
+    color:white;
+    font-size: 42px;
+    font-weight: bold;
+    width: 70%;
+}
+.Favorite_Car_left h4 span {
+    color:#EE2D2D;
+    font-size: 42px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Favorite_Car_left p {
+    color:white;
+    font-size: 14px;
+    width: 90%;
+
+}
+
+.Favorite_Car_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Favorite_Car_right img{
+    width: 100%;
+
+}
+
+.Favorite_Car_left a{
+    color: white;
+    background: #EE2D2D;
+    font-size: 14px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.reservation_card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.reservation_full_container{
+    background: url(images/footrback.png);
+    background-size: 100% 120%;
+    background-position: right -200px top -50px;
+    background-repeat: no-repeat;
+}
+.reservation{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+
+
+}
+.reservation_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: rgba(147, 147, 147, 0.1);
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+
+}
+.reservation_card img{
+    width: 80px;
+}
+.reservation_card h5{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.reservation_card p{
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.reservation_card a{
+    color: white;
+    background:#EE2D2D;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.reservation_card:hover{
+
+    background: #EE2D2D;
+
+}
+
+
+.reservation_card:hover a{
+    color: #EE2D2D;
+    background:white;
+    border: 1px solid white;
+}
+.reservation_card:hover location{
+    color: white;
+}
+
+.luxury{
+    background: url(images/Luxurious@2x.png);
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-size:60% 120% ;
+    background-repeat: no-repeat;
+    background-position: top -30px left 10%;
+}
+ .news{
+     background: url(images/News@2x.png);
+     margin-top: 150px;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-size:30% 120% ;
+     background-repeat: no-repeat;
+     background-position: top -10px left 10%;
+}
+ .news h2{
+     margin-top: 10px;
+     font-size: 40px;
+     color: white;
+     height: 60px;
+     padding-left: 20px;
+     font-weight: bold;
+ }
+ .news h2 span{
+     color: #EE2D2D;
+ }
+.luxury_content{
+    margin-left: 5%;
+}
+.news_content{
+    margin-left: 5%;
+}
+.luxury h2{
+    margin-top: 5px;
+    font-size: 40px;
+    color: white;
+    height: 60px;
+    padding-left: 20px;
+    background: url(images/Path6760.png);
+    background-repeat: no-repeat;
+    background-size: 250px 60px;
+    background-position: left -10px;
+    font-weight: bold;
+}
+.luxury h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.View_btn{
+    margin-right: 10%;
+}
+.View_btn a{
+    color:white;
+    background:  #EE2D2D;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.View_btn a:hover{
+    color: #EE2D2D;
+    background: white;
+    border: 1px solid  #EE2D2D;;
+
+}
+.luxury_car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+.luxury_car_left{
+    color: white;
+}
+.luxury_car_left ul li{
+    margin: 40px 0;
+    cursor: pointer;
+    opacity: .5;
+
+}
+.luxury_card_car{
+    width: 800px;
+    height: auto;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    background: rgba(96, 96, 96, 0.1)
+
+
+}
+
+.luxury_car_left ul li:hover{
+  opacity: 1;
+
+}
+.luxury_car_right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.luxury_card_car img{
+    width: 100%;
+    margin-top: -5px;
+}
+.luxury_card_car h5{
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.luxury_card_car p{
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 70%;
+    opacity: .7;
+    padding-bottom: 30px;
+
+}
+.luxury_card_car a{
+
+    color: white;
+    background: #EE2D2D;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-left: 80%;
+}
+
+.luxury_card_car a:hover{
+
+    color: #EE2D2D;
+    background: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-left: 80%;
+    border: 1px solid #EE2D2D;
+}
+
+.news_container{
+    margin-top: 40px;
+    width: 86%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.news_content_card{
+    width: 400px;
+    height:600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 30px;
+
+}
+.news_card_top{
+    width: 400px;
+    height:400px;
+}
+.news_card_top img{
+    width: 100%;
+}
+.news_card_down{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    padding-left: 10px;
+}
+.news_card_down h5{
+    color: white;
+    opacity: .6;
+    font-size: 14px;
+}
+.news_card_down h4{
+    color: white;
+   font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.news_card_down p{
+    color: white;
+    font-size: 14px;
+    width: 70%;
+
+}
+.news_card_down a{
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #EE2D2D;
+    border-radius: 8px;
+
+}
+.news_card_down a:hover{
+    margin-top: 15px;
+    color: #EE2D2D;
+    background: white;
+    border: 2px solid #EE2D2D;
+    font-weight: bold;
+
+
+}
+
+
+/*================================Booking===================================*/
+.boking_menu{
+    color: #EE2D2D;
+}
+
+.booking_Main_content{
+    width: 100%;
+    height: auto;
+    background-image:  url(images/taxi_driver.png);
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-position: right top;
+
+}
+
+.boking_content_shadow{
+    width: 100%;
+    height: auto;
+    background:  url(images/booking_Shadow_back.png);
+    background-repeat: no-repeat;
+    background-size: 140% 140%;
+    background-position:right 20%  top -30px;
+    background-repeat: no-repeat;
+}
+.booking_banner{
+    padding-top: 200px;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 100px;
+}
+.booking_banner h2{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+}
+.booking_banner h2 span{
+    color:#EE2D2D;
+    font-size: 44px;
+    font-weight: bold;
+    font-style: italic;
+}
+.booking_banner p{
+    color:white;
+    font-size: 14px;
+   gap: 1px;
+    opacity: .5;
+}
+
+.boking_content_container{
+    padding-bottom: 50px;
+}
+
+.booking_form{
+    width: 90%;
+    margin-left: 5%;
+    height: 550px;
+    background: rgb(28, 23, 26);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+}
+.form_left{
+    width: 450px;
+    margin-left: 30px;
+}
+.form_left_img{
+    width: 100%;
+    height: 500px;
+    margin-left: 30px;
+    background: url(images/booking_form_img.png);
+    background-size: 100% 100%;
+
+}
+.form_left_img_shadow{
+    width: 100%;
+    height: 500px;
+    background: url(images/form_img_left.png);
+    background-size: 100% 100%;
+}
+.form_left_img_shadow h2{
+    color: white;
+    font-size: 28px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.form_right{
+    padding: 50px 100px;
+    width: 50%;
+
+}
+.input_form label{
+    color: white;
+    margin-bottom: 10px;
+
+}
+.input_form input{
+    background: #171315;
+    border: 1px solid #2B292A;
+    height: 45px;
+    color: #EE2D2D;
+}
+
+.submit_btn{
+    background: #EE2D2D;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.submit_btn:hover{
+    color: #EE2D2D;!important;
+    background:  white;
+    padding: 10px 20px;
+    border: 1px solid #EE2D2D;;
+}
+
+
+/*=========================Contact==================================*/
+.contact_background{
+ background: url(images/roddd.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+
+
+ }
+
+.contact_background_shadow{
+    background:url(images/road_shadow.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+.contact_banner_container{
+    padding-top: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact_banner_left{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+}
+.Contact_banner_left h2 {
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.contact{
+    color: #EE2D2D;
+}
+
+
+.Contact_banner_left h2 span{
+    font-size: 42px;
+    color: #EE2D2D;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+.Contact_banner_left p{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    opacity: .9;
+    width: 70%;
+    letter-spacing: 1px;
+
+
+}
+.Contact_banner_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Contact_banner_right img{
+   width: 100%;
+
+}
+
+.Contact_form_left{
+    width: 450px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.Contact_form_left_img{
+    width: 100%;
+    height: 500px;
+    margin-left: 30px;
+    background: linear-gradient(#EE2D2D,#CC0000);
+    background-size: 100% 100%;
+    border-radius: 15px;
+
+}
+.Contact_form_left_img_shadow{
+    width: 100%;
+    height: 500px;
+
+    background: url(images/Intersection.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.Contact_form_left_img_shadow h2{
+    color: white;
+    font-size: 28px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.Contact_form_left_img_shadow p{
+    font-size: 14px;
+    margin-left: 30px;
+    color: white;
+    width: 80%;
+
+}
+.form_right{
+    padding: 50px 100px;
+    width: 60%;
+
+}
+.contatc_info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+/*=================================Pop up===========================================*/
+
+.Booking_popUp_main_content{
+    width: 100%;
+    height: 100vh;
+
+    background: url(images/taxi_driver.png);
+    background-size: 100% 170%;
+    background-position: top -330px;
+    background-repeat: no-repeat;
+
+
+}
+.Booking_popUp_main_content_shadow{
+    width: 100%;
+    height: 100vh;
+
+    background: url(images/modern_back.png);
+    background-size: 100% 150%;
+    background-position: top -500px;
+    background-repeat: no-repeat;
+
+}
+.Pop_up_form{
+
+    width: 80%;
+    margin-left: 10%;
+    padding: 50px ;
+    background: #1C171A;
+    border-radius: 15px;
+
+
+}
+.pop_up_form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 200px;
+
+}
+
+@media (max-width: 1300px) {
+    .banner_car{
+        width: 90%;
+        margin-top: -50px;
+
+
+    }
+    .banner{
+        background: url(images/car_back.png);
+        background-size: 600px 600px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .travel_img{
+        width: 300px;
+    }
+
+    .news_content_card{
+        width: 300px;
+        height:500px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 30px;
+
+    }
+    .news_card_top{
+        width: 300px;
+        height:300px;
+    }
+
+
+    .form_left{
+        width: 350px;
+        margin-left: 30px;
+    }
+    .form_left_img{
+        width: 100%;
+        height: 400px;
+        margin-left: 30px;
+        background: url(images/booking_form_img.png);
+        background-size: 100% 100%;
+
+    }
+    .form_left_img_shadow{
+        width: 100%;
+        height: 400px;
+        background: url(images/form_img_left.png);
+        background-size: 100% 100%;
+    }
+    .form_right{
+        padding: 50px 60px;
+        width: 60%;
+
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+
+    .Booking_btn{
+        margin-left: 50px;
+    }
+    .Onav-menu{
+        padding-left: 30px;
+    }
+
+
+    .banner_car{
+        width: 90%;
+        margin-top: -20px;
+
+
+    }
+    .banner{
+        background: url(images/car_back.png);
+        background-size: 400px 400px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .work-left h2{
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 40px;
+
+    }
+    .travel_img{
+        width: 300px;
+    }
+
+
+    .about_banner_left p{
+        font-size: 14px;
+        color: #EE2D2D;
+        width: 70%;
+        margin-left: 4px;
+
+    }
+    .about_banner_left h2{
+        margin-top: -20px;
+        color: white;
+        font-weight: bold;
+        font-size: 38px;
+    }
+    .about_banner_left h3{
+
+        font-size: 38px;
+
+    }
+    .about_banner_left h6{
+
+        font-size: 14px;
+
+
+    }
+    .about_banner_right img{
+       width: 100%;
+
+
+    }
+
+    .luxury_car_left ul li{
+        margin: 40px 0;
+        cursor: pointer;
+        opacity: .5;
+
+    }
+    .luxury_card_car{
+        width: 600px;
+        height: auto;
+
+
+
+    }
+
+    .form_left{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .form_left_img{
+        width: 100%;
+        height: 350px;
+        margin-left: 30px;
+        background: url(images/booking_form_img.png);
+        background-size: 100% 100%;
+
+    }
+    .form_left_img_shadow{
+        width: 100%;
+        height: 350px;
+        background: url(images/form_img_left.png);
+        background-size: 100% 100%;
+    }
+    .form_right{
+        padding: 50px 60px;
+        width: 70%;
+
+
+    }
+    .Contact_banner_right img{
+        width: 100%;
+
+
+    }
+
+
+
+}
+@media (max-width: 1100px) {
+    .banner_car{
+        width: 90%;
+        margin-top: 10px;
+
+
+    }
+    .banner h2{
+
+        color: white;
+        font-weight: bold;
+        font-size:45px ;
+        margin-left: 5%;
+    }
+    .banner h2 span{
+        color:#EE2D2D;
+        font-size:45px ;
+
+    }
+    .banner h3{
+        color: white;
+        font-size:30px;
+        font-weight: normal;
+        margin-left: 5%;
+    }
+    .banner_left_content p{
+        margin-top: 20px;
+        width: 80%;
+        text-align: start;
+        color: white;
+        font-size: 16px;
+
+    }
+    .banner{
+        background: url(images/car_back.png);
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .world_class{
+        width: 100%;
+        height: 400px;
+
+    }
+    .smile_busness{
+        width:  350px;
+    }
+    .Chauffeur_left h2{
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+
+    }
+    .Chauffeur_left h2 span{
+        font-size: 28px;
+
+    }
+
+    .save{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: url(images/banner_car.png);
+
+        background-size:70% 150%;
+        background-repeat: no-repeat;
+        background-position: top -120px center;
+    }
+
+    .save_content{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: url(images/modern_back.png);
+
+    }
+    .travel_img{
+        width: 350px;
+    }
+    .service{
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-flow: column;
+        background-color: #17131596;
+        background-size: 90% 100%;
+        background-repeat: no-repeat;
+        background-position: right ;
+        border-radius: 15px;
+    }
+    .service_shadow{
+
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+
+        background: url(images/back_light.png);
+        background-size: 100% 150%;
+
+        background-repeat: no-repeat;
+        background-position: center ;
+        border-radius: 15px;
+    }
+    .reservation{
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 50px;
+
+
+    }
+    .news_content_card{
+        width: 250px;
+        height:400px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 30px;
+
+    }
+    .news_card_top{
+        width: 250px;
+        height:250px;
+    }
+    .Contact_banner_right img{
+        width: 100%;
+
+
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .travel_img{
+        width: 280px;
+    }
+    .Favorite_Car_left h4 {
+        color:white;
+        font-size: 32px;
+        font-weight: bold;
+        width: 95%;
+    }
+    .Favorite_Car_left h4 span {
+        color:#EE2D2D;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .reservation{
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 50px;
+
+
+    }
+    .luxury_car_left ul li{
+        margin: 40px 0;
+        cursor: pointer;
+        opacity: .5;
+
+    }
+    .luxury_card_car{
+        width: 500px;
+        height: auto;
+
+
+
+    }
+
+    .news_container{
+        flex-flow: column;
+
+    }
+    .news_content_card{
+        width: 100%;
+        height:300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-flow: row;
+        margin-bottom: 100px;
+
+
+    }
+    .news_card_top{
+        width: 80%;
+        height:300px;
+    }
+    .news_card_down{
+        margin-left: 30px;
+    }
+    .Contact_banner_right img{
+        width: 100%;
+        margin-right: 80px;
+
+    }
+}
+
+@media (max-width: 820px) {
+    .Booking_btn{
+        margin-left: 20px;
+    }
+    .Onav-menu{
+        padding-left: 30px;
+
+    }
+    .banner{
+        background: url(images/car_back.png);
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .banner_left_content p{
+        margin-top: 20px;
+        width: 100%;
+        text-align: start;
+        color: white;
+        font-size: 16px;
+
+    }
+    .banner_car{
+
+        width: 90%;
+        margin-top: 50px;
+
+    }
+    .world_class{
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .new_world_class h3{
+
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        width: 70%;
+    }
+    .new_world_class h3 span{
+        color: #EE2D2D;
+        font-size: 32px;
+        font-weight: normal;
+    }
+
+    .Chauffeur_left h2{
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .Chauffeur_left h2 span{
+        font-size: 28px;
+        padding-top: 5px;
+        font-weight: normal;
+        color: #EE2D2D;
+
+    }
+    .Chauffeur_left p{
+        color: white;
+        font-size: 14px;
+        width: 80%;
+
+    }
+    .travel_img{
+        width: 280px;
+    }
+
+    .test_right img{
+        width: 350px;
+
+    }
+    .about_banner_right img{
+        width: 100%;
+
+
+
+    }
+
+
+
+    .about_banner_left h2{
+        margin-top: -20px;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .about_banner_left h3{
+        color: #EE2D2D;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: -15px;
+    }
+
+    .Favorite_Car_left h4 {
+        color:white;
+        font-size: 32px;
+        font-weight: bold;
+        width: 95%;
+    }
+    .Favorite_Car_left h4 span {
+        color:#EE2D2D;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .reservation{
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 50px;
+
+
+    }
+
+    .reservation_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        background: rgba(147, 147, 147, 0.1);
+        background-size: 250px 300px;
+        width: 250px;
+        height: 300px;
+        border-radius: 15px;
+        background-repeat: no-repeat;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+
+
+    }
+    .reservation_card a{
+
+        margin-top: 10px;
+    }
+    .reservation_card p{
+        margin-top: 5px;
+    }
+
+
+
+    .booking_form{
+        padding-top: 100px;
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 50px;
+    }
+    .form_left{
+        width: 450px;
+        margin-left: -10%;
+
+    }
+
+    .form_right{
+        padding: 50px 60px;
+        width: 100%;
+
+
+    }
+    .booking_Main_content{
+        width: 100%;
+        height: auto;
+        background: url(images/taxi_driver.png);
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        background-position: right top;
+    }
+    .boking_content_shadow{
+        width: 100%;
+        height: auto;
+        background:  url(images/form_img_left.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        background-position: right top;
+    }
+    .Contact_banner_right img{
+        width: 100%;
+
+
+    }
+    .Contact_form_left{
+        width: 450px;
+        border-radius: 15px;
+        margin-left: -10%;
+    }
+
+    .Pop_up_form{
+
+        width: 100%;
+        margin-left: -10%;
+        padding: 20px ;
+        background: #1C171A;
+        border-radius: 15px;
+
+
+    }
+    .pop_up_form_container{
+        width: 90%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .Obar {
+
+        background-color: #EE2D2D;
+
+    }
+
+    .Ohamburger {
+        display: block;
+    }
+
+
+    .Ohamburger.active .Obar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .Ohamburger.active .Obar:nth-child(1) {
+        transform: translatey(8px) rotate(45deg);
+    }
+
+    .Ohamburger.active .Obar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .Onav-menu {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        padding-right: 0;
+        gap: 0;
+        flex-direction: column;
+        background: #1C171A;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: 0.3s;
+        border-top: 1px solid #EE2D2D;
+
+    }
+
+    .Booking_btn{
+        margin-left: 22px;
+        padding-left: 30px;
+    }
+    .Onav-item {
+        margin: 16px 0;
+        padding: 20px 0;
+        margin-bottom: -5px;
+        padding-right: 10%;
+
+
+    }
+
+    .Onav-menu.active {
+        left: 0px;
+
+        justify-content: start;
+        overflow: hidden;
+
+
+    }
+    .header{
+        background: #1C171A;
+    }
+
+
+
+
+    .banner{
+        background: none;
+
+    }
+    .banner_right{
+        background: url(images/car_back.png);
+        background-size: 400px 400px;
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+    .banner_left{
+        margin-left: -6%;
+    }
+    .banner_car{
+
+        width: 90%;
+        margin-top: 30px;
+
+    }
+
+    .world_class{
+        width: 100%;
+        height: 400px;
+
+    }
+    .new_world_class p{
+        width: 90%;
+    }
+
+
+    .work-left {
+        padding-top: 100px;
+    }
+
+
+
+    .work-left p{
+        width: 80%;
+        color: white;
+    }
+
+    .work-right-start{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .work-right-end{
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .smile_busness{
+        width:  90%;
+        margin-top: 30px;
+    }
+    .travel_img{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    .travel_right{
+        padding-left: 40px;
+    }
+    .travel_right p{
+       width: 80%;
+    }
+
+
+
+    .service_shadow{
+
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+
+        background: url(images/back_light.png);
+        background-size: 150% 100%;
+
+        background-repeat: no-repeat;
+        background-position: left -50% ;
+        border-radius: 15px;
+    }
+    .footer_content{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .save{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: url(images/banner_car.png);
+
+        background-size:90% 150%;
+        background-repeat: no-repeat;
+        background-position: top -120px center;
+    }
+
+    .Main_footer_content{
+        background: url(images/footrback.png);
+        background-position: right -100px  bottom;
+        background-size: 100% 40%;
+        background-repeat: no-repeat;
+
+    }
+    .Favorite_Car_left{
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+    .Favorite_Car{
+        background: url(images/favorite_back.png);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .luxury_content{
+        margin-left: 5%;
+    }
+    .luxury h2{
+
+        font-size: 30px;
+
+
+    }
+    .luxury h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .View_btn{
+        margin-right: 0;
+        width: 120px;
+        margin-left: 50px;
+    }
+    .luxury{
+       display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+    }
+
+    .luxury_car_left ul {
+        margin-left: -30px;
+
+
+    }
+    .luxury_car_left ul li{
+        margin: 30px 0;
+        cursor: pointer;
+        opacity: .5;
+
+    }
+    .luxury_card_car{
+        width: 280px;
+        height: auto;
+
+
+
+    }
+    .news{
+        background: url(images/News@2x.png);
+
+        background-size:30% 100% ;
+        background-repeat: no-repeat;
+        background-position: top -10px left 10%;
+    }
+    .news h2{
+        margin-top: 10px;
+        font-size: 30px;
+        color: white;
+        height: 60px;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    .news_content{
+        margin-left: 2%;
+    }
+
+
+    .news_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 20px;
+
+    }
+    .news_content_card{
+        width: 400px;
+        height:500px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 20px;
+
+    }
+
+
+    .about_banner_left{
+        margin-top: 40px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-flow: column;
+        background: url(images/B.png);
+        background-size: 80% 100%;
+        background-position: right 100px top 10px;
+        background-repeat: no-repeat;
+        margin-left: 0px;
+
+    }
+    .about_banner_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .about_banner_right img{
+     width: 100%;
+
+
+
+
+    }
+
+    /*================================booking ============================*/
+    .booking_Main_content{
+        width: 100%;
+        height: auto;
+        background: url(images/taxi_driver.png);
+        background-repeat: no-repeat;
+        background-size: 100% 20%;
+        background-position: right top 30px;
+    }
+    .boking_content_shadow{
+        width: 100%;
+        height: auto;
+        background:  url(images/form_img_left.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position:right 20%  top -30px;
+        background-position: right top;
+    }
+    .booking_banner h2{
+        font-size: 28px;
+
+    }
+    .booking_banner h2 span{
+        font-size: 28px;
+
+    }
+
+
+
+
+
+
+    .footer_social_container{
+        color: white;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+    .booking_form{
+        padding-top: 100px;
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 50px;
+    }
+    .form_left{
+        width: 300px;
+        margin-left: -25%;
+
+
+
+    }
+    .form_left_img{
+        width: 100%;
+        height: 300px;
+
+        background: url(images/booking_form_img.png);
+        background-size: 100% 100%;
+
+
+    }
+
+
+    .form_left_img_shadow{
+        width: 100%;
+        height: 300px;
+        background: url(images/form_img_left.png);
+        background-size: 100% 100%;
+    }
+
+
+    .form_right{
+        padding: 50px 10px;
+        width: 80%;
+
+
+    }
+    .footer_social_container{
+        padding-left: 10px;
+    }
+
+    .Contact_banner_right img{
+        width: 90%;
+        margin-left: 8%;
+        margin-top: 10px;
+
+    }
+    .Contact_form_left{
+        width: 350px;
+        border-radius: 15px;
+        margin-left: -13%;
+    }
+
+
+    .contact_background{
+        background: url(images/roddd.png);
+        background-size: 100% 30%;
+        background-repeat: no-repeat;
+        background-position: top;
+
+
+    }
+    .Contact_banner_left h2{
+
+
+        padding-left: 20px;
+
+    }
+    .Contact_banner_left p{
+
+        padding-left: 20px;
+
+    }
+
+
+
+    .contact_background_shadow{
+        background:url(images/road_shadow.png);
+        background-size: 100% 30%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .Pop_up_form{
+
+       width: 100%;
+        margin-left: -10%;
+        padding: 20px ;
+        background: #1C171A;
+        border-radius: 15px;
+
+
+    }
+    .pop_up_form_container{
+        width: 90%;
+
+    }
+}
